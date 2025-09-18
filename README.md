@@ -29,8 +29,8 @@ It combines a **FastAPI backend** for recording/transcription with a **Streamlit
 
 ### 1 Clone Repository
 ```bash
-git clone https://github.com/your-username/speech-to-text-app.git
-cd speech-to-text-app
+git clone https://github.com/sankarv-ai/Speech2Text.git
+cd Speech2Text
 ```
 
 ### 2 Create Virtual Environment
