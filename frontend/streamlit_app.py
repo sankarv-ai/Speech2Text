@@ -23,7 +23,7 @@ duration = st.number_input("Recording duration in (seconds):", min_value=1, max_
 
 
 if st.button("Start Recording"):
-    st.info("Recording started... Speak now 🎙️")
+    st.info("Recording started... Speak now ")
 
     # Record audio
     recording = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype="int16")
@@ -34,7 +34,7 @@ if st.button("Start Recording"):
         wav.write(tmpfile.name, fs, recording)
         file_path = tmpfile.name
 
-    st.success(f"✅ Recording saved locally as {file_path}")
+    st.success(f" Recording saved locally as {file_path}")
 
     # Upload to FastAPI
     with open(file_path, "rb") as f:
