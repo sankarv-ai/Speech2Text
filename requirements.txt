@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sounddevice
+scipy
+openai-whisper
+librosa
+sqlalchemy
+pymysql
+streamlit
+requests

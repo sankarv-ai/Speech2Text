@@ -1,0 +1,1 @@
+ Containerization framework is using the Docker to package the application. So we can move it to render the application and use the environment. Which means Mac, more problems will be avoided in this environment. This environment we call that container. It will be isolated from the system OS, maximums.
