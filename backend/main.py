@@ -13,7 +13,11 @@ import pymysql
 
 # Database setup (MySQL)
 
-DATABASE_URL = "mysql+pymysql://root:Sankar%40mysql2001@localhost:3306/Speech_transcriptions"
+DATABASE_URL = os.getenv(
+    "DATABASE_URL",
+    "mysql+pymysql://root:Sankar%40mysql2001@mysql:3306/Speech_transcriptions"
+)
+
 
 engine = create_engine(DATABASE_URL, pool_pre_ping=True)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

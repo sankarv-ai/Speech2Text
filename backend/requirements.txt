@@ -1,0 +1,9 @@
+python-multipart
+pymysql
+sqlalchemy
+librosa
+openai-whisper
+uvicorn
+fastapi
+cryptography
+

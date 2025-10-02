@@ -1,5 +1,5 @@
 # Import Required Libraries
-
+import os
 import streamlit as st
 import requests
 import sounddevice as sd
@@ -9,7 +9,8 @@ import tempfile
 
 
 # FastAPI backend URL
-FASTAPI_URL = "http://127.0.0.1:8080"  
+FASTAPI_URL = os.getenv("FASTAPI_URL", "http://backend:8070")
+  
 
 # parameters
 fs = 16000
