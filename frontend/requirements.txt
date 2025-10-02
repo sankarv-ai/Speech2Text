@@ -1,0 +1,6 @@
+streamlit
+streamlit-webrtc
+
+# Async + WebSocket
+websockets
+aiortc  # WebRTC support in FastAPI

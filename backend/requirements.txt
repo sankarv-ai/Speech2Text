@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+
+# WebRTC & Media handling
+aiortc
+av
+
+# Whisper + ML dependencies
+openai-whisper
+numpy
+
+# Optional but recommended
+pydantic
+
+# Torch (CUDA 11.8 build)
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch
+torchaudio

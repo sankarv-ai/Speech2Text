@@ -1,0 +1,5 @@
+# Ignore backend virtual environment
+backend/venv-backend/
+
+# Ignore frontend vertual environment
+frontend/venv-frontend/
