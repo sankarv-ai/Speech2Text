@@ -15,7 +15,7 @@ import pymysql
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "mysql+pymysql://root:Sankar%40mysql2001@mysql:3306/Speech_transcriptions"
+    "database_url"
 )
 
 
